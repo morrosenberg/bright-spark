@@ -1,0 +1,223 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * lis
+ ted below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ */
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/images";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/tables";
+@import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/transitions";
+@import "~bootstrap/scss/button-group";
+@import "~bootstrap/scss/input-group";
+@import "~bootstrap/scss/nav";
+@import "~bootstrap/scss/navbar";
+@import "~bootstrap/scss/card";
+@import "~bootstrap/scss/pagination";
+@import "~bootstrap/scss/badge";
+@import "~bootstrap/scss/jumbotron";
+@import "~bootstrap/scss/progress";
+@import "~bootstrap/scss/media";
+@import "~bootstrap/scss/list-group";
+@import "~bootstrap/scss/close";
+@import "~bootstrap/scss/modal";
+@import "~bootstrap/scss/tooltip";
+@import "~bootstrap/scss/popover";
+@import "~bootstrap/scss/utilities";
+
+//@import '~Snarl/dist/snarl';
+@import 'font-awesome';
+@import 'navbar';
+
+#snarl-wrapper {
+  z-index: 10000;
+}
+
+.hover {
+  -webkit-transition: -webkit-box-shadow 1.05s;
+  transition: -webkit-box-shadow 1.05s;
+  transition: box-shadow 1.05s;
+  transition: box-shadow 1.05s, -webkit-box-shadow 1.05s;
+  -webkit-box-shadow: 0;
+  box-shadow: 0; }
+  .hover:hover {
+    -webkit-transition: -webkit-box-shadow 0.75s;
+    transition: -webkit-box-shadow 0.75s;
+    transition: box-shadow 0.75s;
+    transition: box-shadow 0.75s, -webkit-box-shadow 0.75s;
+    -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+// make all images responsive by default
+img {
+  @extend .img-fluid !optional; 
+  margin: 0 auto;
+}
+
+
+// THESE ARE EXAMPLES YOU CAN MODIFY
+// create your own classes
+// to make views framework-neutral
+.column {
+  @extend .col-md-6;
+  @extend .text-xs-center !optional;
+}
+
+// apply styles to HTML elements
+// to make views framework-neutral
+main {
+  @extend .container;
+}
+
+section {
+  @extend .row;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.form {
+  max-width: auto;
+}
+
+.form form {
+  @extend .card;
+  @extend .col-md-12;
+  @extend .bg-faded !optional;;
+  @extend .small !optional;
+}
+
+.form .right {
+  float: right !important;
+}
+
+.form .button {
+  @extend .btn;
+  @extend .btn-primary;
+}
+
+.form fieldset {
+  @extend .card;
+}
+
+.form {
+  @extend .col-md-6;
+}
+
+.form-centered {
+  @extend .col-md-6;
+  @extend .text-xs-center !optional;
+}
+
+.submit {
+  @extend .btn;
+  @extend .btn-outline-success;
+  @extend .btn-lg;
+}
+
+/*#error_explanation:not(:empty) {
+  @extend .alert;
+  @extend .alert-danger;
+}*/
+
+#error_explanation h2 {
+  font-size: 16px;
+}
+
+.button-xs {
+  @extend .btn;
+  @extend .btn-primary;
+  @extend .btn-sm;
+}
+
+.bg-grey {
+  background-color: rgba(245,248,250,0.95);
+}
+
+.radius{
+  border-radius: .28571429rem;
+}
+
+.main-login {
+  padding-top: 2rem;
+  max-width: 410px;
+  margin: 0 auto;
+}
+
+.main-test {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.login-or {
+  position: relative;
+  font-size: 18px;
+  color: #aaa;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.span-or {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: -2px;
+  margin-left: -25px;
+  background-color: #fff;
+  width: 50px;
+  text-align: center;
+}
+
+.hr-or {
+  background-color: #cdcdcd;
+  height: 1px;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.full-page{
+  min-height: 750px;
+}
+
+.card-login {
+  max-width: 500px;
+  align: center;
+  padding: 2rem;
+  background-color: rgba(255,255,255,0.70);
+}
+
+.card-test {
+  min-width: 800px;
+  align: center;
+  padding: 2rem;
+  background-color: rgba(255,255,255,0.70);
+}
+
+.timer{
+  margin-top: 0px;
+  margin-right: 100px;
+}
+
+.table {
+  display: block;
+  overflow-x: auto;
+}

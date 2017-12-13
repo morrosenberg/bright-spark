@@ -1,0 +1,30 @@
+{
+  "name": "bright-sparks",
+  "private": true,
+  "dependencies": {
+    "@rails/webpacker": "^3.0.2",
+    "babel-preset-react": "^6.24.1",
+    "bootstrap": "^4.0.0-beta.2",
+    "caniuse-lite": "^1.0.30000697",
+    "coffeescript": "1.12.7",
+    "file-loader": "^1.1.5",
+    "jquery": "^3.2.1",
+    "node-waves": "^0.7.5",
+    "popper.js": "^1.12.3",
+    "prop-types": "^15.6.0",
+    "rails-ujs": "^5.1.4",
+    "react": "^16.2.0",
+    "react-countdown-clock": "^2.0.0",
+    "react-dom": "^16.0.0",
+    "react-mfb": "^0.6.0",
+    "redux": "^3.7.2",
+    "reflux": "^6.4.1",
+    "turbolinks": "^5.0.3",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.0",
+    "webpacker-react": "^0.3.2"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^2.9.7"
+  }
+}

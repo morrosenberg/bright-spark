@@ -1,0 +1,17 @@
+.navbar-toggler {
+  z-index: -1;
+}
+
+@media (max-width: 576px) {
+  nav > .container {
+    width: 100%;
+  }
+}
+
+a.ekwiti-font.text-bold.text-white {
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: black !important;
+}

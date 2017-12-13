@@ -1,0 +1,15 @@
+<%# Rails flash messages styled for Bootstrap 4.0 %>
+<% flash.each do |name, msg| %>
+  <% if msg.is_a?(String) %>
+    <script type="text/javascript" charset="utf-8">
+      $(window).ready(function () {
+        Snarl.addNotification({
+          title: '<%=j name.to_s.capitalize %>',
+          text: '<%=j msg.to_s.capitalize %>',
+          icon: '<i class="fa fa-bell-o" alert-"<%=j name.to_s == 'notice' ? 'success' : 'danger' %>" role="alert"></i>',
+          timeout: 3000
+        });
+      })
+    </script>
+  <% end %>
+<% end %>

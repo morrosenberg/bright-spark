@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BrightSpark</title>
+    <%= csrf_meta_tags %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'  %>
+    <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <body>
+  <header>
+    <%= react_component 'NavBar' %>
+  </header>
+    <%= render 'layouts/messages' %>
+    <div id="snarl-wrapper"></div>
+    <%= yield %>
+    <%= react_component 'NavMenu' %>
+    <%= react_component 'Footer' %>
+    <%= javascript_pack_tag 'shared', async: 'defer' %>
+    <%= javascript_pack_tag 'images', async: 'defer' %>
+    <%= stylesheet_pack_tag 'shared' %>
+  </body>
+</html>

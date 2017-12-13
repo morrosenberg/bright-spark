@@ -1,0 +1,45 @@
+<div class="container-fluid full-page bg-grey">
+  <div class="main-test">
+    <div class="card card-test card-outline hover">
+      <p id="notice"><%= notice %></p>
+      <%= react_component('Timer') if @questions %>
+
+      <%= form_tag(tests_path, method: :get) do %>
+        <%= hidden_field_tag :test, params[:test] = true %>
+        <%= submit_tag 'New Questions', name: nil, class: 'btn btn-success' %>
+      <% end %>
+
+      <% if @questions %>
+      <table>
+        <thead>
+          <tr>
+            <th>Questions</th>
+            <th>Answers</th>
+            <th colspan="3"></th>
+          </tr>
+        </thead>
+
+        <tbody>
+        
+        <%= form_tag(tests_path(@test), method: :get) do %>
+          <% @questions.each_with_index do |question, ind| %>
+            <tr>
+              <td><%= question %></td>
+              <td><%= text_field_tag ind, params[ind] = nil, autocomplete: "off" %> 
+              </td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+        <br>
+        <%= submit_tag 'Submit', name: nil, class: 'btn btn-success' %>
+        <br>
+        <% end %>
+      <% end %>
+
+      <%= content_tag :div, "Total score is #{@total}%" if @total %>
+    </div>
+  </div>
+</div>
+
+<%= javascript_pack_tag 'tests' %>
