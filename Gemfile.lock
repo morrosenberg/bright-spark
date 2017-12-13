@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/morrosenberg/math-questions.git
+  revision: 86733e00d59dc271475eaf03b4dfeb783257e85d
+  specs:
+    math_questions (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -188,6 +194,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
+  math_questions!
   pg (~> 0.18)
   puma (~> 3.7)
   rails (~> 5.1.4)
