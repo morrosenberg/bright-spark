@@ -1,1 +1,1 @@
-import 'App/Containers/shared';
+import 'src/Containers/shared';

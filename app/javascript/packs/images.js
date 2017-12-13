@@ -1,1 +1,1 @@
-import 'Images';
+import '../src/Images';

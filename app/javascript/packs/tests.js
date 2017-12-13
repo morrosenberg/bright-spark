@@ -1,1 +1,1 @@
-import 'App/Containers/tests';
+import 'src/Containers/tests';

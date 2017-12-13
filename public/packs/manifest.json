@@ -1,14 +1,13 @@
 {
-  "Images/man-jump.jpg": "/packs/Images/man-jump-08d3770ebecf081bba46a67bc069ce26.jpg",
-  "application.css": "/packs/application-270390351fa8d6a13c200b4b513f438f.css",
-  "application.js": "/packs/application-12fa1cce31b17b18e7e5.js",
-  "fonts/fontawesome-webfont.eot": "/packs/fonts/fontawesome-webfont-674f50d287a8c48dc19ba404d20fe713.eot",
-  "fonts/fontawesome-webfont.woff2": "/packs/fonts/fontawesome-webfont-af7ae505a9eed503f8b8e6982036873e.woff2",
-  "hello_react.js": "/packs/hello_react-41d2b8e1912b8bb9451d.js",
-  "images.js": "/packs/images-8745414af6193aa0e86e.js",
+  "application.js": "/packs/application-26f34ee6d89b2eb98142.js",
+  "images.js": "/packs/images-2995857fe4ede64d5b5a.js",
   "shared.css": "/packs/shared-06bcf0004ff3fa81c93e1db576e8c456.css",
-  "shared.js": "/packs/shared-586871c6dd6022fb9c71.js",
-  "tests.js": "/packs/tests-09ecfe9998ae198f367c.js",
-  "welcome.css": "/packs/welcome-16eced3c35c8ee0e610021b2fdbba55e.css",
-  "welcome.js": "/packs/welcome-04017fe2ea71e7ca9f7d.js"
+  "shared.js": "/packs/shared-a799482db5dfa1153473.js",
+  "src/Images/man-jump.jpg": "/packs/src/Images/man-jump-08d3770ebecf081bba46a67bc069ce26.jpg",
+  "tests.js": "/packs/tests-0fc59869a43d28332038.js",
+  "welcome.css": "/packs/welcome-75e6f8383c30b7c9cea001ff40284fb2.css",
+  "welcome.js": "/packs/welcome-6fcb0c093a2e24384719.js",
+  "application.css": "/packs/application-ce649c39dea130a7503fe3fb63b3cafa.css",
+  "src/fonts/fontawesome-webfont.eot": "/packs/src/fonts/fontawesome-webfont-674f50d287a8c48dc19ba404d20fe713.eot",
+  "src/fonts/fontawesome-webfont.woff2": "/packs/src/fonts/fontawesome-webfont-af7ae505a9eed503f8b8e6982036873e.woff2"
 }

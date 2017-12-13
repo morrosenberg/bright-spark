@@ -4,7 +4,7 @@ import Rails from 'rails-ujs';
 import Popper from 'popper.js';
 import Bootstrap from 'Bootstrap'
 import Turbolinks from 'turbolinks';
-import '../Styles/app.scss';
+import './Styles/app.scss';
 
 Rails.start();
 // Modal
