@@ -1,0 +1,64 @@
+/* JUMBOTRON */
+
+.jumbotron {
+  position: relative;
+  padding: 0;
+  height: 800px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: -40px;
+  background: transparent;
+  -webkit-transition: all 800ms ease-in-out;
+  transition: all 800ms ease-in-out;
+}
+
+.jumbo-padding {
+  padding: 6em;
+}
+
+.jumbotron .container {
+  text-align: center;
+}
+
+.jumbotron .container h1 {
+  color: white;
+  font-size: 3.5em;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, .25);
+}
+
+.jumbotron .container p {
+  color: white;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, .25);
+}
+
+.jumbotron-bg {
+  background: url(/packs/Images/man-jump-08d3770ebecf081bba46a67bc069ce26.jpg) no-repeat center center, rgba(112, 152, 255, .5);
+  background-attachment: fixed;
+  height: 800px;
+  background-blend-mode: soft-lightsoft-light;
+  -webkit-background-blend-mode: soft-lightsoft-light;
+}
+
+/* Medium */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .jumbotron-bg {
+    background-size: cover;
+  }
+
+  .app-video {
+    background-size: cover;
+  }
+}
+
+/* larger screens */
+
+@media (min-width: 1440px) {
+  .jumbotron-bg {
+    background-size: cover;
+  }
+
+  .app-video {
+    background-size: cover;
+  }
+}
